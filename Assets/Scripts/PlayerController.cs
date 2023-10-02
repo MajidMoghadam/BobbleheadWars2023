@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
         //and store it in this variable
         pos.x += moveSpeed * Input.GetAxis("Horizontal") * Time.deltaTime;
         pos.z += moveSpeed * Input.GetAxis("Vertical") * Time.deltaTime;
+        
         //apply this user input to the space marine
         //so the space marine actually moves
         transform.position = pos;
