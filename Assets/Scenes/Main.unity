@@ -138,6 +138,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100078, guid: 7f78b096b427d419f9918e4ae4fc4aec, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7f78b096b427d419f9918e4ae4fc4aec, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1369,6 +1373,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   head: {fileID: 1005017328}
   moveSpeed: 50
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4096
 --- !u!1 &1451575339
 GameObject:
   m_ObjectHideFlags: 0
